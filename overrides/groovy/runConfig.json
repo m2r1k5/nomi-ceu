@@ -1,0 +1,21 @@
+{
+  "packName": "Nomifactory",
+  "packId": "contenttweaker",
+  "version": "1.0.0",
+  "debug": true,
+  "classes": [
+    "classes/NomiUtil.groovy",
+    "classes/"
+  ],
+  "loaders": {
+    "preInit": [
+      "classes/",
+      "preInit/nomiContent/CustomGTMaterials.groovy",
+      "preInit/nomiContent/NomiItems.groovy",
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/HandFramingRecipes.groovy"
+    ]
+  }
+}

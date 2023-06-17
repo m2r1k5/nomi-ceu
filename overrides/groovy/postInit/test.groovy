@@ -1,0 +1,1 @@
+crafting.addShapeless('contenttweaker:clayconversion', item('minecraft:clay_ball') * 4, [item('minecraft:clay')])

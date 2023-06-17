@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "contenttweaker:excitationcoil" },
+    "facing=down": { "model": "contenttweaker:excitationcoil", "x": 180 },
+    "facing=north": { "model": "contenttweaker:excitationcoil", "x": 90},
+    "facing=south": { "model": "contenttweaker:excitationcoil", "y": 180, "x": 90 },
+    "facing=west": { "model": "contenttweaker:excitationcoil", "y": 270, "x": 90 },
+    "facing=east": { "model": "contenttweaker:excitationcoil", "y": 90, "x": 90 }
+  }
+}

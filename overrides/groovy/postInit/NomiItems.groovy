@@ -1,0 +1,35 @@
+
+crafting.shapelessBuilder()
+	.name("contenttweaker:penny_to_nickel")
+	.output(item('contenttweaker:omnicoin5'))
+	// todo you can probably just item() * 5 it
+	.input(item('contenttweaker:omnicoin'))
+	.input(item('contenttweaker:omnicoin'))
+	.input(item('contenttweaker:omnicoin'))
+	.input(item('contenttweaker:omnicoin'))
+	.input(item('contenttweaker:omnicoin'))
+	.register()
+
+crafting.shapelessBuilder()
+	.name("contenttweaker:nickel_to_penny")
+	.output(item('contenttweaker:omnicoin') * 5)
+	.input(item('contenttweaker:omnicoin5'))
+	.register()
+
+crafting.shapelessBuilder()
+	.name("contenttweaker:quarter_to_nickel")
+	.output(item('contenttweaker:omnicoin5') * 5)
+	.input(item('contenttweaker:omnicoin25'))
+	.register()
+
+crafting.shapelessBuilder()
+	.name("contenttweaker:dollar_to_nickel")
+	.output(item('contenttweaker:omnicoin5') * 20)
+	.input(item('contenttweaker:omnicoin100'))
+	.register()
+
+crafting.shapelessBuilder()
+	.name("contenttweaker:dollar_to_quarter")
+	.output(item('contenttweaker:omnicoin25') * 4)
+	.input(item('contenttweaker:omnicoin100'))
+	.register()
